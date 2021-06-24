@@ -6,12 +6,13 @@
 /*   By: hyeolee <hyeolee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/23 16:55:05 by hyeolee           #+#    #+#             */
-/*   Updated: 2021/06/24 13:24:11 by hyeolee          ###   ########.fr       */
+/*   Updated: 2021/06/24 18:35:03 by hyeolee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 class				Phonebook
 {
@@ -53,3 +54,8 @@ class				Phonebook
 		std::string	get_underwear_color();
 		std::string	get_darkest_secret();
 };
+
+
+void				print_form(void);
+void				print_index(int index);
+void				print_name(std::string name);

@@ -3,7 +3,8 @@ CFLAGS = -Wall -Wextra -Werror
 TARGET = phonebook
 
 OBJS = main.cpp	\
-		phonebook.cpp
+		phonebook.cpp	\
+		print.cpp
 
 all : $(TARGET)
 
