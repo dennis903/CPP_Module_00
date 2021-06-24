@@ -2,7 +2,8 @@ CC = clang++
 CFLAGS = -Wall -Wextra -Werror
 TARGET = phonebook
 
-OBJS = main.cpp
+OBJS = main.cpp	\
+		phonebook.cpp
 
 all : $(TARGET)
 
